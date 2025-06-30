@@ -1,0 +1,6 @@
+django-admin startproject moviesstore --> nai chale
+python -m django startproject moviesstore
+cd moviesstore
+python manage.py runserver
+python manage.py startapp home
+register app : settings.py -> INSTALLED_APPS -> add 'home'
